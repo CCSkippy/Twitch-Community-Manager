@@ -1,0 +1,115 @@
+.flex-area {
+   display: flex;
+}
+.card-cub {
+    flex: 0 1 calc(25% - 1em);
+	background-color: #e7e7e7;
+	border: 1px solid #000;
+	padding: 15px;
+	border-radius: 40px 10px;
+}
+.card-elitemod {
+    flex: 0 1 calc(25% - 1em);
+	background-color: #d5b714;
+	border: 1px solid #000;
+	padding: 15px;
+	border-radius: 40px 10px;
+}
+.card-mcub {
+    flex: 0 1 calc(25% - 1em);
+	background-color: #e988fa;
+	border: 1px solid #000;
+	padding: 15px;
+	border-radius: 40px 10px;
+}
+.chan-logo {
+	margin-right: 10px;
+	float: right;
+	background-color: #fff;
+	border-radius: 40px 10px;
+	border: 1px solid #000;
+}
+.profile-logo {
+	float: right;
+}
+.chan-name {
+	text-transform: uppercase;
+}
+.grid-container-outer
+{
+	width: 100%;
+	grid-template-rows: auto;
+	grid-template-columns: 1fr;
+	grid-column-gap: 3px;
+	grid-row-gap: 3px;
+	padding: 5px;
+	border-radius: 40px 10px;
+}
+.subtitle {
+	width: 100%;
+	background-color: #e7e7e7;
+	grid-template-rows: auto;
+	grid-template-columns: 1fr;
+	grid-column-gap: 3px;
+	grid-row-gap: 3px;
+	border: 1px solid #fff;
+	border-radius: 40px 10px;
+	padding: 8px;
+}
+.half {
+	width: 50%;
+	float: left;
+}
+.org-half {
+	width: 50%;
+	float: left;
+}
+.ng-row {
+	clear: both;
+}
+#plugin-content {
+    width: 100%;
+    overflow: hidden;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+	.org-half {
+	width: 100%;
+	float: left;
+	}
+		.stream-status .stream-data a {
+		font-size:18px;
+		font-weight:bold;
+		margin-bottom:10px;
+		display:block;
+		margin-top:5px;
+	}
+		.stream-status .stream-info {
+			
+			align: right;
+
+	}
+	.stream-status .stream-info .live-icon {
+		height: 10px;
+		display: inline-block;
+		width: 10px;
+		background: lime;
+		vertical-align: baseline;
+		border-radius: 20px;
+	}
+	.stream-status .stream-info .offline-icon {
+		height: 10px;
+		display: inline-block;
+		width: 10px;
+		background: red;
+		vertical-align: baseline;
+		border-radius: 20px;
+	}
+	.stream-status .stream-info .playing-stream {
+		font-size:12px;
+		display:block;
+		margin-top:10px;
+	}
+}
